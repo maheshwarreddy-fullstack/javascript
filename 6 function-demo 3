@@ -1,0 +1,7 @@
+let myname = "mahesh";
+
+
+function getmyname(){
+    return "mahesh";
+}
+console.log(getmyname());
