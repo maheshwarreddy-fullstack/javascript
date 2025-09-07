@@ -1,7 +1,24 @@
-let myname = "mahesh";
+//let myname = "mahesh";
 
-
+// retur type function.
 function getmyname(){
-    return "mahesh";
+    return "javascript";
 }
-console.log(getmyname());
+//console.log(getmyname()); 
+let subjectname = getmyname();
+console.log(subjectname);
+
+
+function fun3(){
+    console.log("third function");
+}
+
+
+function getsubjects(){
+    let subjectname = ["html" , "js" , "css"];
+    return subjectname;
+}
+let data = getsubjects();
+
+data[0] = "HTML Pro"
+console.log("data is",data);
